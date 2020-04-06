@@ -8,7 +8,7 @@
     },
     "owner": "Ecole 241",
     "theme": "covid",
-    "root_url": "http://localhost/covid/",
+    "root_url": "http://localhost/covid-github-collabo/",
     "prod_url": "http://covid19.ecole241.org/",
     "home_route": "front-mobile",
     "headings": [
