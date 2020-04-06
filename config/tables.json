@@ -1,0 +1,57 @@
+[
+    {
+        "name": "cov_articles",
+        "fields": [
+            {
+                "name": "auteur",
+                "type": "string",
+                "length": 50
+            },
+            {
+                "name": "contenu",
+                "type": "string"
+            },
+            {
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "name": "image",
+                "type": "string"
+            },
+            {
+                "name": "important",
+                "type": "string",
+                "length": 50
+            },
+            {
+                "name": "pub_date",
+                "type": "datetime",
+                "default": "timestamp"
+            },
+            {
+                "name": "source_lien",
+                "type": "string"
+            },
+            {
+                "name": "source_nom",
+                "type": "string",
+                "length": 100
+            },
+            {
+                "name": "statut",
+                "type": "string",
+                "length": 50,
+                "default": "BROUILLON"
+            },
+            {
+                "name": "titre",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            }
+        ]
+    }
+]

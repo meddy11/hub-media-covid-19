@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3c3c6d;
+    font-family: Lato, sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+header .logo {
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+
+header .logo img {
+    height: 100%;
+    margin: 0 10px 0 25px;
+}
+
+header .logo .nom {
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: #3c3c6d;
+}
+
+header nav, header .logo {
+    align-self: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #3c3c6d;
+}
+
+header .numero-vert {
+    display: flex;
+    align-items: center;
+    background-color: #ED2F5A;
+}
+
+header .numero-vert a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+/* Banniere */
+
+.banniere {
+    display: flex;
+    margin: 50px auto;
+    max-width: 80vw;
+}
+
+.banniere .video {
+    background-color: #fff;
+    flex-grow: 5;
+}
+
+.banniere .video iframe {
+    height: 500px;
+}
+
+.banniere .video .titre {
+    background-color: #2F75A3;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.banniere .video .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banniere .video .footer div:first-child {
+    font-size: 1.5em;
+    padding: 10px 30px;
+}
+
+.banniere .video .footer div:first-child p {
+    margin-top: 0;
+    color: #3c3c6d;
+}
+
+.banniere .video .footer div:first-child i {
+    font-size: 1.3em;
+    margin: 0 10px;
+}
+
+.banniere .video .footer div:last-child {
+    padding: 50px;
+    font-size: 1.5em;
+    color: #585757;
+}
+
+.banniere .stats {
+    background-color: #fff;
+    flex-grow: 1;
+    margin-left: 50px;
+    padding: 0 25px;
+}
+
+.banniere .stats h2 {
+    font-size: 1.3em;
+    padding: 15px 5px;
+    margin: 15px 25px;
+    border-radius: 8px;
+}
+
+.banniere .stats .stat-ligne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 25px;
+}
+
+.banniere .stats .stat {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5px 5px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banniere .stats .stat span:first-child {
+    font-size: 1.6em;
+}
+
+.banniere .stats .plus-infos {
+    overflow: auto;
+    max-height: 25vh;
+    margin: 0 25px;
+}
+
+.banniere .stats .plus-infos .info {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.banniere .stats .plus-infos .info>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #3c3c6d;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.banniere .stats .plus-infos .info>div span:first-child {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.banniere .stats .plus-infos .info>div span:last-child {
+    text-transform: uppercase;
+}
+
+.banniere .stats .plus-infos .info>p {
+    font-size: 1.5em;
+    margin: 0;
+    color: #3c3c6d;
+}
+
+/* Section des actualites */
+
+.actualites {
+    background-color: #fff;
+}
+
+.actualites h2 {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+
+.actualites .content {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.actualites .actu {
+    width: 400px;
+}
+
+.actualites .actu img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.actualites .actu .titre {
+    color: #3c3c6d;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+/* classes utilitaires */
+
+.bg-rouge {
+    background-color: #be2f3b;
+}
+
+.bg-vert {
+    background-color: #1c8a06;
+}
+
+.bg-jaune {
+    background-color: #ecd610;
+}
+
+.bg-bleu {
+    background-color: #3c3c6d;
+}
+
+.bg-violet {
+    background-color: #3c3c6d;
+}
+
+.rose {
+    color: #ED2F5A;
+}
+
+.blanc {
+    color: #FFF;
+}
+
+.text-center {
+    text-align: center;
+}

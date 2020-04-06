@@ -1,0 +1,103 @@
+{
+    "name": "COVID-19 Infos",
+    "description": "Plateforme d'information sur l'actualité du COVID-19 au Gabon",
+    "version": "1.0",
+    "author": {
+        "name": "Ecole 241",
+        "website": "ecole241.org"
+    },
+    "owner": "Ecole 241",
+    "theme": "covid",
+    "root_url": "http://localhost/covid/",
+    "prod_url": "http://covid19.ecole241.org/",
+    "home_route": "front-mobile",
+    "headings": [
+        {
+            "name": "front",
+            "dir": "front"
+        },
+        {
+            "name": "article",
+            "dir": "article",
+            "table": "cov_articles"
+        },
+        {
+            "name": "user",
+            "title": "Utilisateurs",
+            "male": true,
+            "singular": "utilisateur",
+            "plural": "utilisateurs",
+            "table": "user",
+            "dir": "user",
+            "icon": "users",
+            "route": "user-home",
+            "route-add": "user-add",
+            "deny": {
+                "session": "p",
+                "values": [
+                    2
+                ]
+            },
+            "listing": {
+                "title": "Tous les utilisateurs",
+                "subtitle": "Listing of all users of database.",
+                "columns": {
+                    "id": "#",
+                    "name": "Nom",
+                    "username": "Nom d'utilisateur",
+                    "profile": {
+                        "label": "Profil",
+                        "matching": {
+                            "1": "Administrateur",
+                            "2": "Sage Femme",
+                            "3": "Major",
+                            "4": "Agent de mairie"
+                        }
+                    }
+                },
+                "actions": [
+                    {
+                        "type": "edit",
+                        "text": "Modifier",
+                        "icon": "edit",
+                        "color": "success",
+                        "handler": "edit",
+                        "deny": {
+                            "session": "p",
+                            "values": [
+                                3
+                            ]
+                        }
+                    },
+                    {
+                        "type": "delete",
+                        "text": "Supprimer",
+                        "icon": "trash",
+                        "color": "danger",
+                        "handler": "delete",
+                        "deny": {
+                            "session": "p",
+                            "values": [
+                                1,
+                                2,
+                                3
+                            ]
+                        }
+                    }
+                ]
+            },
+            "add": {
+                "title": "Ajout d'un utilisateur"
+            },
+            "edit": {
+                "title": "Modification des informations d'un utilisateur"
+            },
+            "views": []
+        },
+        {
+            "name": "setup",
+            "dir": "setup",
+            "show": false
+        }
+    ]
+}

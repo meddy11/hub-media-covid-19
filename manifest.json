@@ -1,0 +1,10 @@
+{
+	"name" : "HUB MÉDIA - COVID-19",
+	"short_name" : "HUB MÉDIA - COVID-19",
+	"description" : "HUB MÉDIA - COVID-19, est une platefrome de centralisation des informations autour du COVID-19 permettant de suivre l'évolution du coronavirus au Gabon.",
+	"start_url" : "http://covid19.ecole241.org",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"lang" : "French",
+	"background_color" : "#ffffff"
+}

@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*================ Header ==================*/
+
+header nav ul {
+    margin: 0;
+    padding: 15px 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .78) 0 3px 6px;
+}
+
+header nav ul {
+    -ms-overflow-style: none;
+}
+
+header nav ul::-webkit-scrollbar {
+    display: none;
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+    color: #9699bd;
+    font-size: .8em;
+    transition: font-size .3s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header nav ul li.active, header nav ul li:active {
+    color: #030946;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* ============ MAIN ===========*/
+
+main {
+    margin-top: 25px;
+    padding: 0 15px;
+}
+
+main h1 {
+    font-size: 1.5em;
+}
+
+main .source-date {
+    font-size: 0.8em;
+    color: #999;
+}
+
+main .source-date a {
+    text-decoration: none;
+}
+
+main>img {
+    width: 100%;
+}
+
+main .texte {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+main .like i {
+    border: 2px solid #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: #868686;
+}
+
+main .like i span {
+    font-size: .8em;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 5px;
+}
+
+main .share {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+main .share i {
+    font-size: 2.3em;
+}
+
+main .share a:first-child i {
+    color: #16c475;
+}
+
+main .share a:nth-child(2) i {
+    color: #3590ff;
+}
+
+main .share a:nth-child(3) i {
+    color: rgb(0, 120, 177);
+}
+
+main .share a:nth-child(4) i {
+    color: rgb(28, 157, 236);
+}
+
+/*============= Partie lire aussi ===============*/
+
+main .lire-aussi {
+    margin-top: 30px;
+}
+
+main .lire-aussi h2 {
+    font-size: 1.1em;
+}
+
+.article {
+    display: flex;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.article>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.article>div span {
+    color: #999;
+    font-style: italic;
+    font-size: .7em;
+}
+
+.article>div span.source {
+    margin-right: 10px;
+}
+
+.article p {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.article img {
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 40%;
+    align-self: flex-start;
+}
+
+/* ================ Classes utilitaire ================*/
+
+.border-none {
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+.borders-radius-right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.borders-radius-left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
