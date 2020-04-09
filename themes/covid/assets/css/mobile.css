@@ -258,11 +258,11 @@ section.section-slider {
 .article>div span {
     color: #999;
     font-style: italic;
-    font-size: .7em;
+    font-size: .6em;
 }
 
 .article>div span.source {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .article p {
